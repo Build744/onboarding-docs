@@ -22,7 +22,7 @@ Renvoyer une chaîne de caractères en fonction de la divisibilité d’un nombr
 - Si le nombre est divisible par **3 et 5** → retourner `"FizzBuzz"`.
 - Si le nombre est divisible **seulement par 3** → retourner `"Fizz"`.
 - Si le nombre est divisible **seulement par 5** → retourner `"Buzz"`.
-- Sinon → retourner le nombre en chaîne (`"7"`).
+- Sinon → retourner le nombre en chaîne de caractère.
 
 ### 🧪 Cas de test  
 | Entrée | Sortie attendue |
@@ -31,6 +31,7 @@ Renvoyer une chaîne de caractères en fonction de la divisibilité d’un nombr
 | 9      | "Fizz"          |
 | 10     | "Buzz"          |
 | 7      | "7"             |
+| 2      | "2"             |
 
 ---
 

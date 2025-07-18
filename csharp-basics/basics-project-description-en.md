@@ -22,15 +22,16 @@ Return a string based on the divisibility of an integer number.
 - If the number is divisible by **3 and 5** → return `"FizzBuzz"`.
 - If the number is divisible **only by 3** → return `"Fizz"`.
 - If the number is divisible **only by 5** → return `"Buzz"`.
-- Otherwise → return the number as a string (`"7"`).
+- Otherwise → return the number as a string.
 
 ### 🧪 Test Cases  
 | Input | Expected Output |
-| ----- | -------------- |
-| 15    | "FizzBuzz"     |
-| 9     | "Fizz"         |
-| 10    | "Buzz"         |
-| 7     | "7"            |
+| ----- | --------------- |
+| 15    | "FizzBuzz"      |
+| 9     | "Fizz"          |
+| 10    | "Buzz"          |
+| 7     | "7"             |
+| 2     | "2"             |
 
 ---
 
@@ -56,9 +57,9 @@ Analyze a 10-digit number and format it as `(NPA)NXX-XXXX`.
 
 ### 🧪 Test Cases
 | `Parse` Input | `ToString()` Output |
-| ------------- | ------------------ |
-| "5145551234"  | "(514)555-1234"    |
-| "2120007890"  | "(212)000-7890"    |
+| ------------- | ------------------- |
+| "5145551234"  | "(514)555-1234"     |
+| "2120007890"  | "(212)000-7890"     |
 
 ---
 
@@ -139,11 +140,11 @@ Convert a given temperature between three units: **Kelvin**, **Celsius**, and **
 - Temperature in **Kelvin** cannot be < 0 
 
 ### 🧪 Test Cases  
-| Conversion Type | Input  | Expected Output |
-| -------------- | ------ | --------------- |
-| C → F          | 0°C    | 32°F            |
-| F → C          | 212°F  | 100°C           |
-| C → K          | 100°C  | 373.15 K        |
-| K → F          | 0 K    | -459.67°F       |
-| F → K          | 32°F   | 273.15 K        |
-| Invalid K      | -10 K  | Exception       |
+| Conversion Type | Input | Expected Output |
+| --------------- | ----- | --------------- |
+| C → F           | 0°C   | 32°F            |
+| F → C           | 212°F | 100°C           |
+| C → K           | 100°C | 373.15 K        |
+| K → F           | 0 K   | -459.67°F       |
+| F → K           | 32°F  | 273.15 K        |
+| Invalid K       | -10 K | Exception       |
